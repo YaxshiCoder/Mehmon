@@ -1,0 +1,53 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+*{
+  margin: 10;
+  padding: 0; 
+  box-sizing: border-box;
+}
+
+input{
+  height:45px ;
+  width: 40%;
+  font-size: 14px;
+  line-height: 16px;
+  border-radius: 10px;
+  padding-left: 10px;
+  border-color: #fc8a00;
+}
+
+.registr{
+  margin-bottom: 13px;
+}
+
+button{
+  height:45px ;
+  width: 40%;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: #f5ce81;
+  border-color: #fc8a00;
+  transition: transform 0.3s ease; 
+}
+
+button:hover{
+transform: scale(1.1);
+}
+.window{
+  height:600px ;
+  width: 60%;
+  text-align: center;
+  background-color: #D8A66A;
+  box-shadow: 0px 6px 50px #eca145;
+  border-radius: 20px;
+}
+
+.main {
+  height: 100vh;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
