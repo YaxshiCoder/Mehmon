@@ -280,3 +280,135 @@ h2{
     gap: 55px;
 }
 
+@media (max-width: 723px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header .logo img {
+        height: 50px;
+    }
+
+    header .phone {
+        font-size: 18px;
+        height: auto;
+        padding: 10px 20px;
+    }
+
+    header ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header ul li {
+        padding: 15px;
+        font-size: 18px;
+    }
+
+    .login {
+        font-size: 18px;
+        padding: 10px 20px;
+        height: auto;
+        margin: 10px;
+    }
+
+    .elem {
+        margin: 20px auto;
+        width: 90%;
+    }
+
+    a.text1 {
+        font-size: 36px;
+    }
+
+    a.text2 {
+        font-size: 24px;
+    }
+
+    img.photo1 {
+        position: static;
+        height: 0px;
+        width: 0%;
+        margin-top: 20px;
+    }
+
+    img.photo2 {
+        position: static;
+        height:0px;
+        width:0%;
+        margin-top: 20px;
+    }
+
+    .button-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .about {
+        margin-top: 10vh;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    .cont {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .abt_img {
+        height: 200px;
+        width: 80%;
+        margin: 20px 0;
+    }
+
+    h2 {
+        font-size: 18px;
+        width: 90%;
+        padding: 0;
+    }
+
+    .card {
+        width: 45%;
+        margin: 20px 0;
+    }
+
+    .card_img {
+        width: 120%;
+    }
+
+    .card_title {
+        font-size: 12px;
+    }
+
+    .card_text {
+        font-size: 8px;
+    }
+
+    .card_price {
+        font-size: 10px;
+    }
+
+    .button {
+        width: 70%;
+    }
+
+    .container {
+        margin-top: 20vh;
+    }
+
+    .menu_title {
+        font-size: 36px;
+    }
+
+    .menu_container {
+        gap: 20px;
+    }
+}
