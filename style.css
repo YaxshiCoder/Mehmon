@@ -1,0 +1,282 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu Sans", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+a{
+    color: #EC9637;
+}
+
+body {
+    background-color: #FEFAE0;
+    height: 300vh;
+}
+
+
+header {
+    background-color: #FEFAE0;
+    display: flex;
+    justify-content: space-around;
+    transition: transform 0.3s ease;
+    margin-top: 30px;
+}
+
+header .logo img {
+    height: 60px;
+    padding: 10px;
+    background-color: #EC9637;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.3s ease;
+}
+
+header .logo img:hover {
+    transform: scale(1.2);
+    background-color: #dd7f1b;
+}
+
+header .phone {
+    position: relative;
+    padding: 10px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #eb761d;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, opacity 0.3s;
+    text-align: center;
+    height: 10vh;
+}
+
+header .phone:hover::after {
+    content: "(+99871) 242-01-00";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.5s;
+    font-size: 14px;
+    width: 21vh;
+}
+
+header .phone:hover {
+    background-color: #eb761d;
+    margin-top: 1.5vh;
+    height: 9vh;
+    scale: 1.1;
+}
+
+header .phone:hover::after {
+    opacity: 1;
+}
+
+header .phone:hover {
+    color: transparent;
+}
+
+
+header ul {
+    display: flex;
+    justify-content: center;
+}
+
+
+header ul li {
+    transition: .2s;
+    padding: 25px;
+    cursor: pointer;
+    border-bottom: 5px solid transparent;
+    font-size: 20px;
+    color: #eb761d;
+}
+
+header ul li:hover {
+    background-color: #ebe6ca;
+    border-radius: 10px;
+}
+
+header ul li:hover a {
+    color: #5c3415;
+}
+
+.login{
+    padding: 15px;
+    height: 10vh;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #eb761d;
+    color: #fff;
+    transition: background-color 0.3s, scale 0.3s;
+    
+}
+
+.login:hover{
+    background-color: #b96422;
+    scale: 1.1;
+}
+
+
+.elem {
+    margin-top: 100px;
+    margin-left: 90px;
+    width: 600px;
+}
+
+a.text1 {
+    color: #b96422;
+    font-size: 49px;
+}
+
+a.text2 {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+img.photo1 {
+    position: absolute;
+    height: 400px;
+    top: 150px;
+    left: 800px;
+}
+img.photo2 {
+    position: absolute;
+    top: 330px;
+    left: 550px;
+}
+
+.button-container {
+    display: flex;
+    gap: 30px;
+}
+
+.btn {
+    padding: 15px;
+    margin-top: 40px;
+    font-size: 12px;
+    color: #fff;
+    background-color: #b96422;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, scale 0.3s;
+}
+
+.btn:hover {
+    background-color: #f7832b;
+    scale: 1.1;
+}   
+
+.about{
+    background-color: #FEFAE0;
+    height: 100vh;
+    width: 100vw;
+    margin-top: 30vh;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: #b96422;
+}
+
+.cont{
+    display: flex;
+    margin-top: 60px;
+}
+
+.abt_img {
+    margin-left: 20vh;
+    height: 70vh;
+    width: 30vw;
+}
+
+h2{
+    font-size: 25px;
+    text-align:justify;
+    color: #EC9637;
+    width: 40vw;
+    padding-left: 20px;
+}
+
+.card{
+    background-color: #fff;
+    width: 300px;
+    padding: 30px;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.card_img{
+    width: 250px;
+    border-radius: 20px;
+}
+
+.card_title{
+    color: #EC9637;  
+    text-align: center;  
+    font-size: 27px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.card_text{
+    color: #EC9637;  
+    text-align:justify;  
+    margin-top: 10px;
+}
+
+.card_price{
+    color: #EC9637;  
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.button{
+    background-color: #EC9637;
+    color: #fff;  
+    padding: 9px;
+    font-size: px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.button:hover{
+    background-color: #a56928;
+}
+
+.container{
+    width: 90vw;
+    background-color: #FEFAE0;
+    margin-top: 50vh;
+}
+
+.menu_title{
+    color: #e97d09;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 100px;
+}
+
+.menu_container{
+    display: flex;   
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 90vw;
+    gap: 55px;
+}
+
